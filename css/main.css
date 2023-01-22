@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.links{
+    width: 100%;
+    position:absolute;
+    z-index: 10;
+    display: flex;	
+    justify-content:flex-end;
+    right: 7%;
+    top: 2%;
+    
+	
+ 
+}
+
+.links ul li{
+    display: inline-block;
+}
+.links ul li .active{
+    color: black;
+    text-decoration: underline;
+}
+.links ul li a{    
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;    
+    padding-right: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+/*header start*/
+.header{
+    background-image: url(../images/computer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color:#4069ab;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+.header .content{
+    position: absolute;
+    display: flex;     
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: 30%;
+}
+.header .content h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+}
+.header .content p{
+    color: #f1f1f1;
+    text-align: center;
+    width: 36%;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.header .content button{
+    background-color: white;
+    color: #4069ab;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;    
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    text-align: center;
+}
+/*welcome start*/
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+}
+.welcome h1{
+    text-transform: capitalize;
+    color: #4069ab;
+    
+}
+.line{
+    width: 3%;
+    height: 5px;
+    background-color: #4069ab;
+}
+.welcome p{
+    text-align: center;
+    width: 50%;
+}
+.welcome button{
+    background-color: white;
+    color: #4069ab;
+    font-size: 18px;
+    border:#4069ab solid;
+    font-weight: 600;    
+    border-radius: 30px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    text-align: center;
+}
+/*our start*/
+.our{
+    display: flex;
+    flex-direction: row;   
+    margin: 35px 0;
+    
+}
+.our .o img{
+    width: 50px;
+    height: 50px;
+}
+
+.our .o{
+    padding: 20px 0;
+    width: 33.5%;    
+    text-align: center;
+    background-color: #4069ab;
+    color: white;
+}
+.our .o p{
+    width: 65%;
+    margin: 0 auto;
+}
+.our .mission{
+    background-color: #222222;
+}
+/*services start*/
+.services-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0;
+}
+.services .services-content h1{
+    text-transform: capitalize;
+    color: #4069ab;
+}
+  
+.services .services-content p{
+    text-align: center;
+    width: 50%;
+    color:  #222222;
+}
+.services .services-templates{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+   
+    
+}
+.services .services-templates .services-template img{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+   
+}
+.services .services-templates .services-template .icons{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    border: #4069ab solid;
+}
+.services .services-templates .services-template{
+    padding: 10px 0;
+    width: 25%;    
+    text-align: center;
+    background-color: #f1f1f1;
+    color:#4069ab;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.services .services-templates .services-template h3{
+    padding-left: 20px;
+}
+/*numbers start*/
+.numbers{
+    display: flex;
+    background-color: #4069ab;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin:35px 0;
+    
+}
+.numbers .project img{
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+}
+.numbers .project .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:#4069ab ;
+    border: #FCFFFB solid 1px;
+    align-self: center;
+    
+    
+}
+.numbers .project {
+    width: 22%;
+    color: #FCFFFB;
+    text-align: center;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;   
+   
+}
+.numbers .project p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.numbers .project h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/*portfolio start*/
+.portfolio .content{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    margin:35px 0;
+}
+.portfolio .content h1{
+    text-transform: capitalize;
+    color: #4069ab;
+    text-align: center;
+}
+  
+.portfolio .content p{
+    text-align: center;
+    width: 50%;
+    color: #222222;
+}
+.portfolio .words{
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    margin:20px 0;
+}
+.portfolio .words .diamond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.portfolio .words .diamond img{
+  margin-bottom: 0;
+  width: 20px;
+  height: 20px;
+  padding-left: 15px;
+}
+.portfolio .words .diamond h4{
+    text-decoration: underline;
+    margin-top: 0;
+}
+.portfolio .words h4{
+    text-transform: uppercase;
+    color: #4069ab;
+    padding-left: 15px;
+}
+.portfolio .pictures {
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px 0;
+}
+.portfolio .pictures .picture img{
+ width: 405px;
+ height: 280px;
+}
+.portfolio .pictures .picture{
+   width: 30%;
+}
+/*footer*/
+.footer{
+    background-color: #4069ab;
+    margin-top:35px ;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content:center;
+    flex-direction: row;  
+    color: #f1f1f1;
+}
+.footer .picture{
+    width: 15%;
+    border: #f1f1f1 solid 3px;
+    border-radius: 50% 0 0 50%;
+    background: url(../images/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer .content .line{
+    background-color: #f1f1f1;
+    margin-top: 0;    
+    height: 1px;
+    width: 15%;
+}
+.footer .content h1{
+    margin-bottom: 0;
+    color: white;
+}
+.footer .content h4{
+    font-weight: 200;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer  .content{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
